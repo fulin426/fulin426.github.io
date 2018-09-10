@@ -17,8 +17,8 @@ ul {
 
 li {
 	display: inline;
-	margin-right: 20px;
-  margin-left: 20px;
+	margin-right: 10px;
+  margin-left: 10px;
   font-size: 20px;
 }
 
@@ -74,6 +74,12 @@ section {
   .col-1-3 {
     width: 40%;
   }
+
+  li {
+  margin-right: 25px;
+  margin-left: 25px;
+  font-size: 20px;
+  }
 }
 /*Project Text info*/
 .project-container {
@@ -103,5 +109,14 @@ section {
 }
 
 .bottom-space {
-  height: 120px;
+  height: 100px;
 }
+
+footer {
+    width: 100%;
+    background-color: #606060;
+    color: white;
+    text-align: center;
+}
+
+

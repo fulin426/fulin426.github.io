@@ -27,6 +27,10 @@ li {
   padding: 18px;
 }
 
+#name {
+  font-weight: bold;
+}
+
 section {
 	max-width: 940px;
 	margin: 25px auto 25px auto;

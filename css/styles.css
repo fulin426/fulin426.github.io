@@ -39,6 +39,10 @@ section {
   border-radius: 3px;
 }
 
+.grid {
+  background-color: #e0e0e0;
+}
+
 #intro {
   text-align: center;
   font-weight: 500;

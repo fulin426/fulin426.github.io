@@ -13,24 +13,41 @@ nav {
   background-color: #2A3840 !important;
 }
 
+.jumbo-styles {
+  color: #fafafa;
+  background-color: #171717;
+  text-align: center;
+}
+
+.display-4 {
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+/*projects*/
 .row {
   margin-bottom: 1.8rem;
 }
 
-.projects {
+.project-description {
   background-color: #F5F5F5;
   color: black;
-}
-
-.project-github-demo, .project-header, .header{
-  text-align: center;
-}
-
-.projects {
   border: solid 1px #A9A9A9;
   border-radius: 5px;
-  padding: .5rem;
+  padding: 1rem;
   box-shadow: 0 8px 6px -6px rgba(0,0,0,0.5);
+  margin: .2rem;
+  margin-bottom: 1.5rem;
+}
+
+.tech-header {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: .6rem;
+}
+
+.project-github-demo, .project-header, .header, .tech-description{
+  text-align: center;
 }
 
 /*contact*/

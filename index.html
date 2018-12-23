@@ -4,28 +4,28 @@
 	<title>Fu-Lin Liu</title>
 	<meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <link href="css/styles.css" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container">
-	  <a class="navbar-brand" href="#">Navbar</a>
+	  <a class="navbar-brand" href="#"><i class="far fa-keyboard"></i></a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
 	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 	    <ul class="navbar-nav mr-auto">
 	    	<li class="nav-item">
-			  	<a class="nav-link profile-about" href="#profile">Profile</a>
+			  	<a class="nav-link profile-about" href="#about">About</a>
 			  </li>
 			  <li class="nav-item">
-			  	<a class="nav-link profile-about" href="#projects">Projects</a>
+			  	<a class="nav-link projects-nav" href="#projects">Projects</a>
 			  </li>
 			  <li class="nav-item">
-			  	<a class="nav-link profile-about" href="#contact">Contact </a>
+			  	<a class="nav-link contact" href="#contact">Contact </a>
 			  </li>
 	    </ul>
 	  </div>
@@ -34,12 +34,26 @@
 <!-- Introduction -->
 	<section id="intro">
 		<div class="container">
-			<p>I am a Web Developer based in the San Francisco Bay Area. I am passionate about new technologies, challenging myself, and problem solving. My interests include riding my single speed throughout the city, live concerts, and ramen noodles. Feel free to browse some my projects below.</p>
+			<div class="row">
+				<div class="col-12 header" id="about">
+					<h2>About</h2>
+			  </div>		
+			</div>	
+			<div class="row">
+				<div class="col-12">
+					<p>I am a Web Developer based in the San Francisco Bay Area. I am passionate about new technologies, challenging myself, and problem solving. My interests include riding my single speed throughout the city, live concerts, and ramen noodles. Feel free to browse some my projects below.</p>
+				</div>	
+			</div>		
 		</div>
 	</section>
 <!-- Projects -->
 	<section id="projects">
 		<div class="container">
+			<div class="row" id="projects">
+			 <div class="col-12 header">
+				<h2>Projects</h2>
+			 </div>	
+			</div>
 			<div class="row projects">
 				<div class="col-7">
 					<img class="img-thumbnail" src="img/landing_page_AmpSearch.png">
@@ -93,10 +107,10 @@
 			<a href="https://www.linkedin.com/in/fu-lin-liu/" target="blank" class="logo-link"><i class="fab fa-linkedin fa-3x fa-fw logo"></i></a>
 		</div>
 	</div>
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="client.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="client.js"></script>
 </body>
 </html>

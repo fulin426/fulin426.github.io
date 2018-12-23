@@ -1,17 +1,28 @@
 body {
+  margin: 0;
   padding-bottom: 2%;
+  background-color: #171717;
+  color: #fafafa;
 }
 
 nav {
   margin-bottom: 1.5rem;
-  color: blue;
+}
+
+.bg-dark {
+  background-color: #2A3840 !important;
 }
 
 .row {
   margin-bottom: 1.8rem;
 }
 
-.project-github-demo, .project-header {
+.projects {
+  background-color: #F5F5F5;
+  color: black;
+}
+
+.project-github-demo, .project-header, .header{
   text-align: center;
 }
 

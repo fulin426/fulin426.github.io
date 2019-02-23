@@ -7,7 +7,7 @@ body {
 
 /* intro section */
 #intro {
-  background-color: #F0F0F0;
+  background-color: #F8F8F8;
   color: black;
 }
 
@@ -28,7 +28,7 @@ body {
 }
 
 .project-description {
-  background-color: #F5F5F5;
+  background-color: #F8F8F8;
   color: black;
   border: solid 1px #A9A9A9;
   border-radius: 5px;

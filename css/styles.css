@@ -5,17 +5,15 @@ body {
   color: #fafafa;
 }
 
-nav {
-  margin-bottom: 1.5rem;
-}
-
-.bg-dark {
-  background-color: #2A3840 !important;
+/* intro section */
+#intro {
+  background-color: #F0F0F0;
+  color: black;
 }
 
 .jumbo-styles {
-  color: #fafafa;
-  background-color: #171717;
+  color: black;
+  background-color: inherit;
   text-align: center;
 }
 
@@ -64,4 +62,3 @@ nav {
   display: inline-block;
   width: 100%
 }
-

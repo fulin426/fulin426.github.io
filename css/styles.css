@@ -8,14 +8,14 @@ html , body{
 }
 
 body {
-  background-color: #171717;
+  /* background-color: #171717; */
   color: #fafafa;
 }
 
 
 /* intro section */
 #intro {
-  background-color: #F8F8F8;
+  background-color: #fff;
   color: black;
 }
 
@@ -31,8 +31,10 @@ body {
 }
 
 /*projects*/
-.row {
-  margin-bottom: 1.8rem;
+#projects {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #202020;
 }
 
 .project-description {
@@ -59,6 +61,12 @@ body {
 /*contact*/
 #contact, .contacts-wrapper {
   text-align: center;
+  background-color: black
+}
+
+#contact {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .logo-link {

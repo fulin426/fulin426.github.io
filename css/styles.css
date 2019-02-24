@@ -12,10 +12,13 @@ body {
   color: #fafafa;
 }
 
+.navbar {
+  background-color: black !important;
+}
 
 /* intro section */
 #intro {
-  background-color: #fff;
+  background-color: #F8F8F8;
   color: black;
 }
 

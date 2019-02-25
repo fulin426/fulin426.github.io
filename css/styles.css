@@ -15,7 +15,7 @@ html , body {
 /* intro section */
 .jumbo-styles {
   text-align: center;
-  background-color: #F8F8F8;
+  background-color: #fff;
   color: black;
   padding: 4rem;
 }
@@ -54,6 +54,7 @@ html , body {
 .last-project {
   padding-top: 2rem;
   padding-bottom: 2rem;
+  background-color: #F8F8F8;
 }
 
 .project-header {
@@ -93,7 +94,8 @@ html , body {
 .icons {
   color: white;
   display: inline-block;
-  width: 100%
+  width: 100%;
+  margin-top: .5rem;
 }
 
 .copyright-name {

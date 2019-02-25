@@ -1,52 +1,69 @@
 /* fix right margin on mobile size */
-html , body{
+html , body {
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
   overflow-x: hidden;
+  font-family: 'Open Sans', sans-serif;
 }
 
-body {
-  /* background-color: #171717; */
-  color: #fafafa;
-}
-
-.navbar {
-  background-color: black !important;
-}
+/* .bg-dark {
+  background-color: #39CCCC !important;
+} */
 
 /* intro section */
-#intro {
+.jumbo-styles {
+  text-align: center;
   background-color: #F8F8F8;
   color: black;
+  padding: 4rem;
 }
 
-.jumbo-styles {
-  color: black;
-  background-color: inherit;
-  text-align: center;
+.profile-box {
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+
+  padding: 2rem 0;
+  max-width: 25rem;
+  margin: 0 auto;
 }
 
-.display-4 {
-    font-size: 4rem;
-    font-weight: 500;
+.profile-img {
+  border-radius: 50%;
+  box-shadow: 0 1px 10px 3px rgba(0, 0, 0, 0.18);
+}
+
+.profile-name {
+  margin-top: 1.2rem;
+  margin-bottom: .8rem;
 }
 
 /*projects*/
 #projects {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  background-color: #202020;
+  /* padding-bottom: 2rem;
+  background-color: #fff; */
+}
+
+.first-project {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: lightgrey;
+}
+
+.last-project {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.project-header {
+  margin-top: 1.5rem;
 }
 
 .project-description {
-  background-color: #F8F8F8;
   color: black;
-  border: solid 1px #A9A9A9;
   border-radius: 5px;
   padding: 1rem;
-  box-shadow: 0 8px 6px -6px rgba(0,0,0,0.5);
   margin: .2rem;
   margin-bottom: 1.5rem;
 }
@@ -57,19 +74,16 @@ body {
   margin-bottom: .6rem;
 }
 
-.project-github-demo, .project-header, .header, .tech-description{
+.project-github-demo, .project-header, .tech-header {
   text-align: center;
 }
 
 /*contact*/
-#contact, .contacts-wrapper {
-  text-align: center;
-  background-color: black
-}
-
 #contact {
+  text-align: center;
+  background-color: #202020;
+  color: #fff;
   padding-top: 2rem;
-  padding-bottom: 2rem;
 }
 
 .logo-link {
@@ -80,4 +94,9 @@ body {
   color: white;
   display: inline-block;
   width: 100%
+}
+
+.copyright-name {
+  display: inline-block;
+  margin-top: 1rem;
 }

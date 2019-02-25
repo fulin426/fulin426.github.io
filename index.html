@@ -6,160 +6,147 @@
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container">
-	  <a class="navbar-brand" href="#"></a>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
-	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-	    <ul class="navbar-nav mr-auto">
-	    	<li class="nav-item">
-			  	<a class="nav-link profile-about" href="#about">About</a>
-			  </li>
-			  <li class="nav-item">
-			  	<a class="nav-link projects-nav" href="#projects">Projects</a>
-			  </li>
-			  <li class="nav-item">
-			  	<a class="nav-link contact" href="#contact">Contact </a>
-			  </li>
-	    </ul>
-	  </div>
+  <a class="navbar-brand" href="#"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+    	<li class="nav-item">
+		  	<a class="nav-link profile-about" href="#about">About</a>
+		  </li>
+		  <li class="nav-item">
+		  	<a class="nav-link projects-nav" href="#projects">Projects</a>
+		  </li>
+		  <li class="nav-item">
+		  	<a class="nav-link contact" href="#contact">Contact </a>
+		  </li>
+    </ul>
 	</div>
 </nav>
 <!-- Introduction -->
-	<section id="intro">
-		<div class="container">
-			<div class="jumbotron jumbo-styles">
-	  		<h1 class="display-4">Fu-Lin Liu</h1>
-	  			<p class="lead">Web Developer</p>
-			</div>
-			<div class="row">
-				<div class="col-12 header" id="about">
-					<h2>About</h2>
-			  </div>
-			</div>
-			<div class="row">
-				<div class="col-12 intro-description">
-					<p>I am a Web Developer based in the San Francisco Bay Area. I am passionate about new technologies, challenging myself, and problem solving. My interests include riding my single speed throughout the city, live concerts, and ramen noodles. Feel free to browse some my projects below.</p>
-				</div>
-			</div>
-	</section>
+  <div class="jumbo-styles" id="intro">
+      <img class="profile-img" src="img/profile.jpg">
+      <h3 class="profile-name">Fu-Lin Liu</h3>
+      <p class="lead">Web Developer</p>
+      <a href="mailto:fulin426@gmail.com" class="email"><i class="fas fa-envelope"></i></span> fulin426@gmail.com</a>
+  </div>
 <!-- Projects -->
 	<section id="projects">
-		<div class="container">
-			<!-- <div class="row">
-			 <div class="col-12 header">
-				<h2>Projects</h2>
-			 </div>
-			</div> -->
-      <div class="row project-description">
-        <div class="col-sm-7">
-          <img class="img-thumbnail" src="img/Issues_Hunt.png">
-        </div>
-        <div class="col-sm-5">
-          <div class="project-header">
-            <h2>Issues Hunt</h2>
+    <div class="first-project">
+      <div class="container">
+        <div class="row project-description">
+          <div class="col-lg-7">
+            <img class="img-thumbnail" src="img/Issues_Hunt.png">
           </div>
-          <p class="project-text">Hunt for problems to solve using GitHub API. Save time searching for "good first issue" or "help wanted" labels. Would help more people contribute to open source projects.
-          </p>
-          <div class="tech-description">
-            <p class="tech-header">Technologies</p>
-            <p>React, HTML, CSS, Bootstrap, Axios, Font-Awesome, Github API</p>
-          </div>
-          <div class="project-github-demo">
-            <p>
-              <a href="https://github.com/fulin426/Issues-Hunt" target="_blank">Github</a> |
-              <a href="https://issueshunt.herokuapp.com/" target="_blank" >Demo</a>
+          <div class="col-lg-5">
+            <div class="project-header">
+              <h4>Issues Hunt</h4>
+            </div>
+            <p class="project-text">Hunt for problems to solve using GitHub API. Save time searching for "good first issue" or "help wanted" labels. Would help more people contribute to open source projects.
             </p>
+            <div class="tech-description">
+              <h4 class="tech-header">Technologies</h4>
+            </div>
+              <p>React, HTML, CSS, Bootstrap, Axios, Font-Awesome, Github API</p>
+            <div class="project-github-demo">
+              <p>
+                <a href="https://github.com/fulin426/Issues-Hunt" target="_blank">Github</a> |
+                <a href="https://issueshunt.herokuapp.com/" target="_blank" >Demo</a>
+              </p>
+            </div>
           </div>
         </div>
       </div>
-			<div class="row project-description">
-				<div class="col-sm-7">
-					<img class="img-thumbnail" src="img/landing_page_AmpSearch.png">
+    </div>
+    <div class="last-project">
+      <div class="container">
+        <div class="row project-description">
+          <div class="col-lg-7">
+            <img class="img-thumbnail" src="img/LandingPage_UpcomingEvents.png">
+          </div>
+    			<div class="col-lg-5">
+    				<div class="project-header">
+    					<h4>Upcoming Events!</h4>
+    				</div>
+    				<p class="project-text">Upcoming Events is a interactive fullstack web app that allows users to search for concert dates based on their favorite artists and save events that are upcoming.
+    				</p>
+    				<div class="tech-description">
+    					<p class="tech-header">Technologies</p>
+            </div>
+    					<p>HTML, CSS, JavaScript, jQuery, Node.js, Express, Mongoose, mLab, Mocha, Chai</p>
+    				<div class="project-github-demo">
+    					<p>
+    						<a href="https://github.com/fulin426/Upcoming-Events" target="_blank">Github</a> |
+    						<a href="https://capstone-upcoming-events.herokuapp.com/" target="_blank" >Demo</a>
+    					</p>
+    				</div>
+    			</div>
+    		</div>
+      </div>
+    </div>
+    <!-- <div class="row project-description">
+      <div class="col-lg-7">
+        <img class="img-thumbnail" src="img/landing_page_AmpSearch.png">
+      </div>
+      <div class="col-lg-5">
+        <div class="project-header">
+          <h2>Amp Search</h2>
+        </div>
+        <p class="project-text">A interactive web app that allows users to search for jobs based on skills/	technlogies that the user has. The jobs with the closests match are shown at the top of the search results. Users can then use that information to asses which technologies are in demand based on region.
+        </p>
+        <div class="tech-description">
+          <p class="tech-header">Technologies</p>
+          <p>HTML, CSS, JavaScript, React, Redux, Node</p>
+        </div>
+        <div class="project-github-demo">
+          <p>
+            <a href="https://github.com/fulin426/Amp-Search" target="_blank">Github</a> |
+            <a href="https://ampsearch.herokuapp.com/" target="_blank" >Demo</a>
+          </p>
+        </div>
+      </div>
+    </div> -->
+		<!-- <div class="row project-description">
+			<div class="col-lg-7">
+				<img class="img-thumbnail" src="img/LandingPage_PortfolioTracker.jpg">
+			</div>
+			<div class="col-lg-5">
+				<div class="project-header">
+					<h2>Portfolio Reblance</h2>
 				</div>
-				<div class="col-sm-5">
-					<div class="project-header">
-						<h2>Amp Search</h2>
-					</div>
-					<p class="project-text">A interactive web app that allows users to search for jobs based on skills/	technlogies that the user has. The jobs with the closests match are shown at the top of the search results. Users can then use that information to asses which technologies are in demand based on region.
+				<p class="project-text">
+					A interactive fullstack web app that helps users keep track of their different funds and asset classes. It allows them see a current snapshot of how their portfolio is performing.
+				</p>
+				<div class="tech-description">
+					<p class="tech-header">Technologies</p>
+					<p>HTML, CSS, JavaScript, jQuery, Node.js, Express, MongoDB, Mongoose, mLab, Mocha, Chai</p>
+				</div>
+				<div class="project-github-demo">
+					<p>
+						<a href="https://github.com/fulin426/node-capstone-portfolio-tracker" target="_blank">Github</a> |
+						<a href="https://node-portfolio-tracker.herokuapp.com" target="_blank" >Demo</a>
 					</p>
-					<div class="tech-description">
-						<p class="tech-header">Technologies</p>
-						<p>HTML, CSS, JavaScript, React, Redux, Node</p>
-					</div>
-					<div class="project-github-demo">
-						<p>
-							<a href="https://github.com/fulin426/Amp-Search" target="_blank">Github</a> |
-							<a href="https://ampsearch.herokuapp.com/" target="_blank" >Demo</a>
-						</p>
-					</div>
 				</div>
 			</div>
-			<div class="row project-description">
-				<div class="col-sm-7">
-					<img class="img-thumbnail" src="img/LandingPage_UpcomingEvents.png">
-				</div>
-				<div class="col-sm-5">
-					<div class="project-header">
-						<h2>Upcoming Events!</h2>
-					</div>
-					<p class="project-text">Upcoming Events is a interactive fullstack web app that allows users to search for concert dates based on their favorite artists and save events that are upcoming.
-					</p>
-					<div class="tech-description">
-						<p class="tech-header">Technologies</p>
-						<p>HTML, CSS, JavaScript, jQuery, Node.js, Express, Mongoose, mLab, Mocha, Chai</p>
-					</div>
-					<div class="project-github-demo">
-						<p>
-							<a href="https://github.com/fulin426/Upcoming-Events" target="_blank">Github</a> |
-							<a href="https://capstone-upcoming-events.herokuapp.com/" target="_blank" >Demo</a>
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="row project-description">
-				<div class="col-sm-7">
-					<img class="img-thumbnail" src="img/LandingPage_PortfolioTracker.jpg">
-				</div>
-				<div class="col-sm-5">
-					<div class="project-header">
-						<h2>Portfolio Reblance</h2>
-					</div>
-					<p class="project-text">
-						A interactive fullstack web app that helps users keep track of their different funds and asset classes. It allows them see a current snapshot of how their portfolio is performing.
-					</p>
-					<div class="tech-description">
-						<p class="tech-header">Technologies</p>
-						<p>HTML, CSS, JavaScript, jQuery, Node.js, Express, MongoDB, Mongoose, mLab, Mocha, Chai</p>
-					</div>
-					<div class="project-github-demo">
-						<p>
-							<a href="https://github.com/fulin426/node-capstone-portfolio-tracker" target="_blank">Github</a> |
-							<a href="https://node-portfolio-tracker.herokuapp.com" target="_blank" >Demo</a>
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
+		</div> -->
 	</section>
 	<!-- Contact -->
 	<div class="row footer" id="contact">
-		<div class="col-12">
-			<h2>Contact</h2>
-			<p>Let's talk - web development, new opportunities, or anything else on your mind!</p>
-			<p>Email: <a href="mailto:baolin.liu@gmail.com?subject=Hello%20There" target="_top">fulin426@gmail.com</a></p>
-		</div>
-		<div class="icons">
-			<a a href="mailto:fulin426@gmail.com?subject=Hello%20There" target="_top" class="logo-link"><i class="fas fa-envelope-square fa-3x fa-fw logo" ></i></a>
-			<a href="https://github.com/fulin426" target="blank" class="logo-link"><i class="fab fa-github fa-3x fa-fw logo" ></i></a>
-			<a href="https://www.linkedin.com/in/fu-lin-liu/" target="blank" class="logo-link"><i class="fab fa-linkedin fa-3x fa-fw logo"></i></a>
-		</div>
+    <div class="container">
+      <div class="icons">
+        <a a href="mailto:fulin426@gmail.com?subject=Hello%20There" target="_top" class="logo-link"><i class="fas fa-envelope-square fa-2x fa-fw logo" ></i></a>
+        <a href="https://github.com/fulin426" target="blank" class="logo-link"><i class="fab fa-github fa-2x fa-fw logo" ></i></a>
+        <a href="https://www.linkedin.com/in/fu-lin-liu/" target="blank" class="logo-link"><i class="fab fa-linkedin fa-2x fa-fw logo"></i></a>
+      </div>
+        <P class="copyright-name"> © Fu-Lin Liu</P>
+    </div>
 	</div>
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>

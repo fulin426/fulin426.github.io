@@ -8,6 +8,10 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet" type="text/css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
 </head>
 <body>
 <!-- Navigation -->
@@ -37,24 +41,38 @@
       <p class="lead">Web Developer</p>
       <a href="mailto:fulin426@gmail.com" class="email"><i class="fas fa-envelope"></i></span> fulin426@gmail.com</a>
   </div>
+  <section id="about">
+    <div class="container">
+      <h3 class="text-center">About</h3>
+      <div class="row">
+        <p>
+          Hello, I am a Web Developer based in the San Francisco Bay Area that enjoys building things and new technologies.
+          My skillset involves React/Redux on the front end and Node.js in the back end.
+        </p>
+      </div>
+    </div>
+  </section>
 <!-- Projects -->
 	<section id="projects">
     <div class="first-project">
       <div class="container">
         <div class="row project-description">
           <div class="col-lg-7">
-            <img class="img-thumbnail" src="img/Issues_Hunt.png">
+            <img class="img-thumbnail" src="img/ColorPicExample.png">
           </div>
           <div class="col-lg-5">
             <div class="project-header">
-              <h4>Issues Hunt</h4>
+              <h4>Color Pic</h4>
             </div>
-            <p class="project-text">Hunt for problems to solve using GitHub API. Save time searching for "good first issue" or "help wanted" labels. Would help more people contribute to open source projects.
+            <p class="project-text">
+              The Color Pic application uses image recognition to predict what the dominant colors are in a given picture.
+              The colors are then used to generate a suggested color palette with colors that work well together.
+              This works in a semi-random way, so hit regenerate to see a different color set each time.
             </p>
             <div class="tech-description">
               <h4 class="tech-header">Technologies</h4>
             </div>
-              <p>React, HTML, CSS, Bootstrap4, Github API, Axios</p>
+              <p>React, Redux, Semantic UI, Axios, Node.js, Express, MongoDB</p>
             <div class="project-github-demo">
               <p>
                 <a href="https://github.com/fulin426/Issues-Hunt" target="_blank">Github</a> |
@@ -65,7 +83,37 @@
         </div>
       </div>
     </div>
-    <div class="last-project">
+    <section id="projects">
+      <div class="last-project">
+        <div class="container">
+          <div class="row project-description">
+            <div class="col-lg-7">
+              <img class="img-thumbnail" src="img/Issues_Hunt.png">
+            </div>
+            <div class="col-lg-5">
+              <div class="project-header">
+                <h4>Issues Hunt</h4>
+              </div>
+              <p class="project-text">
+                Hunt for problems to solve using GitHub API.
+                Save time searching for "good first issue" or "help wanted" labels.
+                Would help more people contribute to open source projects.
+              </p>
+              <div class="tech-description">
+                <h4 class="tech-header">Technologies</h4>
+              </div>
+                <p>React, HTML, CSS, Bootstrap4, Github API, Axios</p>
+              <div class="project-github-demo">
+                <p>
+                  <a href="https://github.com/fulin426/Color-Pic" target="_blank">Github</a> |
+                  <a href="https://color-pic.herokuapp.com/" target="_blank" >Demo</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="first-project">
       <div class="container">
         <div class="row project-description">
           <div class="col-lg-7">
@@ -75,7 +123,8 @@
     				<div class="project-header">
     					<h4 class="project-header">Upcoming Events!</h4>
     				</div>
-    				<p class="project-text">Upcoming Events is a interactive fullstack web app that allows users to search for concert dates based on their favorite artists and save events that are upcoming.
+    				<p class="project-text">
+              Upcoming Events is a interactive fullstack web app that allows users to search for concert dates based on their favorite artists and save events that are upcoming.
     				</p>
     				<div class="tech-description">
     					<p class="tech-header">Technologies</p>
@@ -91,51 +140,6 @@
     		</div>
       </div>
     </div>
-    <!-- <div class="row project-description">
-      <div class="col-lg-7">
-        <img class="img-thumbnail" src="img/landing_page_AmpSearch.png">
-      </div>
-      <div class="col-lg-5">
-        <div class="project-header">
-          <h2>Amp Search</h2>
-        </div>
-        <p class="project-text">A interactive web app that allows users to search for jobs based on skills/	technlogies that the user has. The jobs with the closests match are shown at the top of the search results. Users can then use that information to asses which technologies are in demand based on region.
-        </p>
-        <div class="tech-description">
-          <p class="tech-header">Technologies</p>
-          <p>HTML, CSS, JavaScript, React, Redux, Node</p>
-        </div>
-        <div class="project-github-demo">
-          <p>
-            <a href="https://github.com/fulin426/Amp-Search" target="_blank">Github</a> |
-            <a href="https://ampsearch.herokuapp.com/" target="_blank" >Demo</a>
-          </p>
-        </div>
-      </div>
-    </div> -->
-		<!-- <div class="row project-description">
-			<div class="col-lg-7">
-				<img class="img-thumbnail" src="img/LandingPage_PortfolioTracker.jpg">
-			</div>
-			<div class="col-lg-5">
-				<div class="project-header">
-					<h2>Portfolio Reblance</h2>
-				</div>
-				<p class="project-text">
-					A interactive fullstack web app that helps users keep track of their different funds and asset classes. It allows them see a current snapshot of how their portfolio is performing.
-				</p>
-				<div class="tech-description">
-					<p class="tech-header">Technologies</p>
-					<p>HTML, CSS, JavaScript, jQuery, Node.js, Express, MongoDB, Mongoose, mLab, Mocha, Chai</p>
-				</div>
-				<div class="project-github-demo">
-					<p>
-						<a href="https://github.com/fulin426/node-capstone-portfolio-tracker" target="_blank">Github</a> |
-						<a href="https://node-portfolio-tracker.herokuapp.com" target="_blank" >Demo</a>
-					</p>
-				</div>
-			</div>
-		</div> -->
 	</section>
 	<!-- Contact -->
 	<div class="row footer" id="contact">

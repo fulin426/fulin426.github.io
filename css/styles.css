@@ -1,14 +1,18 @@
 /* fix right margin on mobile size */
-html , body {
+html,
+body {
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
   overflow-x: hidden;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* intro section */
+.Introduction {
+  padding: 1rem;
+}
 .jumbo-styles {
   text-align: center;
   background-color: #fff;
@@ -23,7 +27,7 @@ html , body {
 
 .profile-name {
   margin-top: 1.2rem;
-  margin-bottom: .8rem;
+  margin-bottom: 0.8rem;
 }
 /* about */
 #about {
@@ -34,7 +38,7 @@ html , body {
 .first-project {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  background-color: #E8E8E8;
+  background-color: #e8e8e8;
 }
 
 .last-project {
@@ -52,17 +56,19 @@ html , body {
   color: black;
   border-radius: 5px;
   padding: 1rem;
-  margin: .2rem;
+  margin: 0.2rem;
   margin-bottom: 1.5rem;
 }
 
 .tech-header {
   font-weight: 600;
   font-size: 1.2rem;
-  margin-bottom: .6rem;
+  margin-bottom: 0.6rem;
 }
 
-.project-github-demo, .project-header, .tech-header {
+.project-github-demo,
+.project-header,
+.tech-header {
   text-align: center;
 }
 
@@ -82,7 +88,7 @@ html , body {
   color: white;
   display: inline-block;
   width: 100%;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 
 .copyright-name {
